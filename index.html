@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utshob Bose - Portfolio</title>
+    <style>
+        .skill-container h3{
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+        .skill-container ul{
+            text-decoration: none;
+        }
+        .skill-container ul li{
+            font-style: italic;
+            list-style: none;
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <img src="images/LogoBose.png" alt="Logo" class="logo">
+            <button class="hamburger" onclick="toggleMenu()">☰</button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p>Hello, I'm <span>Utshob Bose</span></p>
+                    <h1>Frontend Developer</h1>
+                    <!-- <p>Hello, I'm <span>Utshob Bose</span></p> -->
+                </div>
+                <img src="images/BossBose-Photoroom.png" alt="Profile" class="hero-img">
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about-me" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <img src="images/AboutMePhoto.jpg" alt="About" class="about-img">
+                <div class="about-content">
+                    <p class="skill-card">Hey there! I'm Utshob Bose, a passionate front-end developer who enjoys creating interactive and visually appealing websites. I love experimenting with fun projects and have experience with Next.js and the MERN stack. My interests also extend to AI integration, such as chatbots and AI-driven recommendations. Always eager to learn and innovate, I love exploring how AI and web development can work together to create smarter, more intuitive applications.</p>
+                    <div class="highlight-box">
+                        <h3>Front-end Development</h3>
+                        <ul>
+                            <li>Next.js</li>
+                            <li>ReactJs</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+                    <div class="highlight-box">
+                        <h3>MERN Stack</h3>
+                        <ul>
+                            <li>MongoDB</li>
+                            <li>Express</li>
+                            <li>Node.js</li>
+                        </ul>
+                    </div>
+                    <div class="highlight-box">
+                        <h3>AI Integration </h3>
+                        <ul>
+                            <li>Chatbot</li>
+                            <li>Ai driven search</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    
+        <section id="education" class="section">
+            <div class="container">
+              <h1 class="section-title">Education</h1>
+              <table class="edu-table">
+                <tr>
+                  <th>Degree</th>
+                  <th>Institution</th>
+                  <th>Year</th>
+                </tr>
+                <tr>
+                  <td>SSC in Science</td>
+                  <td>Mohammadpur Preparatory School and College</td>
+                  <td>2017</td>
+                </tr>
+                <tr>
+                  <td>HSC in Science</td>
+                  <td>Birshrestho Noor Mohammad College</td>
+                  <td>2019</td>
+                <tr>
+                  <td>BSc in Computer Science</td>
+                  <td><a href="https://www.bracu.ac.bd/" target="_blank">Brac University</a></td>
+                  <td>2025</td>
+                </tr>
+              </table>
+            </div>
+        </section>
+    
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container skill-container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Programming</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>C++</li>
+                    </ul>
+                </div>
+                <!-- Other skill cards -->
+                <div class="skill-card">
+                    <h3>Web Development</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>VS Code</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- hobby section -->
+    <section id="hobby" class="section hobby-section">
+        <div class="container">
+            <h2 class="section-title">Hobbies & Activities</h2>
+            <div class="skills-grid">
+                <div class="skill-card coding">
+                    <h3>Coding & Open Source Contributions</h3>
+                </div>
+                <!-- Other skill cards -->
+                <div class="skill-card chess">
+                    <h3>Playing Chess</h3>
+                    
+                </div>
+                <div class="skill-card photography">
+                    <h3>Photography</h3>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <a href="mailto:utshob.bose@g.bracu.ac.bd" style="color: #FF6600; text-decoration: none; ">
+                    utshob.bose@g.bracu.ac.bd
+                  </a>
+                  
+                <!-- <a href="https://linkedin.com/in/yourname" target="_blank" class="btn">LinkedIn Profile</a> -->
+            </div>
+        </div>
+    </section>
+
+    <section class="section footer-section" >
+        <div class="container footer-container">
+            <div style="display: flex; align-items: end; gap: 10px; margin-bottom: 50px;">
+                <img src="./images/LogoBose.png" alt="" style="width: 100px; border: 1px solid white;">
+                <h4>BosetheHacker</h4>
+    
+            </div>
+    
+            <div style="display: flex; justify-content: space-between;" class="footer-secondary-container">
+                <div class="footer-subsection">
+                    <h3>CHECKOUT</h3>
+                    <div>
+                        <p><a href="/myInfo.html" style="text-decoration: none;" target="_blank">Personal Info</a></p>
+                        <p>Services</p>
+                    </div>
+                </div>
+    
+                <div  class="footer-subsection">
+                    <h3>FOLLOW US</h3>
+                    <div>
+                        <p><a href="https://github.com/utshobbose" target="_blank">GitHub</a></p>
+                        <p><a href="https://discord.gg/NQKyjgbn" target="_blank">Discord</a></p>
+                    </div>
+                </div>
+                <div  class="footer-subsection">
+                    <h3>SOCIALS</h3>
+                    <div>
+                        <p><a href="https://www.facebook.com/utshob.bose" target="_blank">facebook</a></p>
+                        <p><a href="https://www.instagram.com/nobodyfromfuture/?hl=en" target="_blank">Instagram</a></p>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+
+    </section>
+
+    <div class="extra-info">
+        <p id="location"></p>
+        <p id="lastModified"></p>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Utshob Bose. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
