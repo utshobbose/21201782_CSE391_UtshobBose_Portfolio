@@ -10,6 +10,10 @@
   --transition: all 0.3s ease;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -84,6 +88,7 @@ nav ul li a {
   nav ul li a:hover::after {
     width: 100%;
   }
+
 
 .hamburger {
   display: none;
