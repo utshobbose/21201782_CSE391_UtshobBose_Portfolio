@@ -201,6 +201,8 @@ nav ul li a {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
+
+
 /* Skills Section */
 .skills-grid {
   display: grid;
@@ -245,12 +247,21 @@ nav ul li a {
     background-position: center;
     background-repeat: no-repeat;
 }
-
+.coding:hover{
+  background-color: #644a4a;
+  opacity: 0.7;
+  cursor: pointer;
+}
 .chess{
     background-image: url("https://images.chesscomfiles.com/uploads/v1/article/24876.b9db3b03.5000x5000o.27d27bb80d90.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+.chess:hover{
+  background-color: #644a4a;
+  opacity: 0.7;
+  cursor: pointer;
 }
 
 .photography{
@@ -259,6 +270,40 @@ nav ul li a {
     background-position: center;
     background-repeat: no-repeat;
 }
+.photography:hover{
+  background-color: #644a4a;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.skill-card.coding h3{
+  font-size: 20px;
+  transition: transform 0.3s ease;
+
+}
+.skill-card.coding h3:hover{
+    transform: scale(1.2);
+
+}
+.skill-card.chess h3{
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+
+.skill-card.chess h3:hover{
+    transform: scale(1.2);
+}
+.skill-card.photography h3{
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+
+.skill-card.photography h3:hover{
+    transform: scale(1.2);
+
+}
+
+
 
 /* Contact Section */
 .contact-content {
